@@ -1,0 +1,35 @@
+# Prevent directory listing
+Options -Indexes
+
+# Protect .htaccess file itself
+<Files .htaccess>
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+# Protect config files
+<FilesMatch "^(config\.php|setup\.sql)">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+# Disable server signature
+ServerSignature Off
+
+# Set default charset
+AddDefaultCharset UTF-8
+
+# Error handling
+ErrorDocument 404 /Personal-Finance-Management-System/error.php?code=404&message=Page%20not%20found
+ErrorDocument 403 /Personal-Finance-Management-System/error.php?code=403&message=Access%20forbidden
+ErrorDocument 500 /Personal-Finance-Management-System/error.php?code=500&message=Server%20error
+
+# Handle PHP errors
+php_flag display_startup_errors off
+php_flag display_errors off
+php_flag html_errors off
+php_value docref_root 0
+php_value docref_ext 0
+
+# Default index file
+DirectoryIndex index.php

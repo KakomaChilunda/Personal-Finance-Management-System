@@ -1,0 +1,96 @@
+/* Custom Styles for Personal Finance Management System */
+
+body {
+    background-color: #f8f9fa;
+}
+
+.auth-form {
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-card {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-5px);
+}
+
+.stat-card {
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    color: white;
+}
+
+.income-card {
+    background: linear-gradient(to right, #28a745, #20c997);
+}
+
+.expense-card {
+    background: linear-gradient(to right, #dc3545, #e83e8c);
+}
+
+.balance-card {
+    background: linear-gradient(to right, #007bff, #6610f2);
+}
+
+.chart-container {
+    position: relative;
+    height: 300px;
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.transaction-item {
+    border-left: 4px solid #dee2e6;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.transaction-item.income {
+    border-left-color: #28a745;
+}
+
+.transaction-item.expense {
+    border-left-color: #dc3545;
+}
+
+.card-header-tabs {
+    margin-right: 0;
+    margin-bottom: -1rem;
+    margin-left: 0;
+    border-bottom: 0;
+}
+
+.btn-floating {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.input-group-text {
+    background-color: transparent;
+}
+
+.page-header {
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 1rem;
+}
