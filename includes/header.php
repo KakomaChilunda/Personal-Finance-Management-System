@@ -18,6 +18,8 @@ require_once $rootPath . '/includes/functions.php';
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Custom Animations CSS -->
+    <link rel="stylesheet" href="assets/css/animations.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-4">

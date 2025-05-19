@@ -72,13 +72,13 @@
                     <h5 class="text-uppercase mb-4">Contact Us</h5>
                     <ul class="list-unstyled">
                         <li class="mb-2">
-                            <i class="fas fa-map-marker-alt me-2"></i> 123 Finance Street, Money City
+                            <i class="fas fa-map-marker-alt me-2"></i> Lusaka, Zambia
                         </li>
                         <li class="mb-2">
                             <i class="fas fa-envelope me-2"></i> support@financemanager.com
                         </li>
                         <li class="mb-2">
-                            <i class="fas fa-phone me-2"></i> +1 (123) 456-7890
+                            <i class="fas fa-phone me-2"></i> +260 97 8523028
                         </li>
                         <li class="mb-2">
                             <i class="fas fa-clock me-2"></i> Mon - Fri: 9:00 AM - 5:00 PM
@@ -113,6 +113,8 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- Custom JS -->
     <script src="assets/js/script.js"></script>
+    <!-- Custom Animations JS -->
+    <script src="assets/js/animations.js"></script>
     
     <!-- Initialize AOS -->
     <script>
